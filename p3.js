@@ -49,7 +49,7 @@ const Chatbot = (function() {
     } else if (msgLower.includes("what is techpro") || msgLower.includes("what is this")) {
         response = "Techpro is an AI-powered platform to help you analyze your resume, identify key skills, match with suitable job roles and companies, and get simulated salary insights.";
     } else if (msgLower.includes("how to use") || msgLower.includes("guide me")) {
-        response = "1. Login or Register. 2. Upload your PDF resume or paste text. 3. Click 'Analyze & Match Jobs'. 4. Explore results and use 'Next Page' for more details like salary simulations.";
+        response = "1. Login or Register. 2. Upload your PDF resume or paste text. 3. Click 'Analyze & Match Jobs'. 4. Explore results and use 'Next Page' for more Details 
     } else if (msgLower.includes("bye") || msgLower.includes("thank you") || msgLower.includes("thanks")) {
       response = "You're welcome! Feel free to ask if anything else comes up. Good luck!";
     }
